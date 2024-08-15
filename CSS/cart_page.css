@@ -1,0 +1,21 @@
+.cart_item{
+    border: 2px solid black;
+    width: 1920px;
+    height: 150px;
+}
+.cart_item img{
+    border: 2px solid black;
+    margin: 10px;
+    height: 120px;
+    width: 120px;
+    float: left;
+}
+
+.cart_item div{
+    margin: 12px;
+}
+
+.cart_item button{
+    float: right;
+    margin-right: 50px;
+}

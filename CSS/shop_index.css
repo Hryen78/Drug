@@ -1,0 +1,21 @@
+.slider-section img {
+    width: 100%;
+    height: auto;
+}
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+.intro-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+.intro-section h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+.intro-section p {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    color: #555;
+}

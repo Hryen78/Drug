@@ -1,0 +1,120 @@
+
+.header{
+    border: 2px solid ;
+    height: 75px;
+}
+.logo{
+    width: 100px;
+    font-size: 45px;
+    height: 50px;
+    align-content: center;
+    margin: 10px 10px;
+    border: 2px solid;
+    align-items: center;
+    float: left;
+}
+.search{
+    display:block;
+    border: 2px solid;
+    height: 30px;
+    width: 1000px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px
+}
+.menu{
+    margin: 25px 25px 0px 0px;
+    float: right;
+    border: 2px solid ;
+}
+.menu a{
+    width: 75px;
+    height: 50px;
+    border: 2px solid black;
+}
+
+.body{
+    border: 2px solid;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    padding: 10px;
+}
+
+.container{
+    margin: 30px 0px 0px 30px;
+    width: 220px;
+    height: auto;
+    border: 2px solid;
+    float: left;
+}
+
+.container img{
+    width: 200px;
+    height: 220px;
+    display: flex;
+    margin: 8px;
+    border: 2px solid;
+}
+
+.footer{
+    border: 2px solid;
+    height: 300px;
+}
+
+.footer h4{
+    text-align: center;
+    border: 2px solid;
+}
+
+.footer .section1{
+    border: 2px solid;
+    width: 300px;
+    margin-left: 50px;
+    float: left;
+}
+.footer .section2{
+    border: 2px solid;
+    margin-left: 50px;
+    width: 300px;
+    float: left;
+}
+
+.activate{
+    background-color: rebeccapurple;
+}
+
+.slideshow{
+    width: 1920px;
+    position: relative;
+    margin: auto;
+    height: 150px;
+    border: 2px solid;
+}
+
+.prev .next{
+    cursor: pointer;
+    top: 50%;
+    padding: auto;
+    width: auto ;
+    user-select: none;
+    position: absolute;
+}
+
+@media screen and (max-width:1000px){
+    .search{
+        width: 450px;
+    }
+    .container{
+        height: auto;
+    }
+    .footer .section1 {
+        width: 200px;
+    }
+    .footer .section2{
+        width: 200px;
+    }
+    .slideshow{
+        width: 100%;
+    }
+}

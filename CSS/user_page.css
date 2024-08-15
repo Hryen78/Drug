@@ -1,0 +1,17 @@
+.user_info{
+    border: 2px solid black;
+    height: 550px;
+}
+
+.user_info .user_name{
+    text-align: center;
+}
+
+.user_info .box{
+    border: 2px solid black;
+    height: 200px;
+    width: 300px;
+    margin: 100px;
+    padding: 10px;
+    float: left;
+}

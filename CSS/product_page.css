@@ -1,0 +1,45 @@
+.product_info{
+    border: 2px solid black;
+    margin-left: 220px;
+    width: 1500px;
+    height: 575px;
+}
+
+.product_info img{
+    margin: 10px 10px 150px 100px;
+    height: 550px;
+    width: 400px;
+    border: 2px solid black;
+    float: left;
+}
+
+.product_info .product_desc{
+    margin: 10px;
+    border: 2px solid black;
+    float: left;
+    width: 800px;
+}
+
+.product_info .product_desc h1{
+    margin-left: 20px;
+    font-size: 48px;
+}
+
+.product_info .product_desc h2{
+    margin-left: 20px
+}
+
+.product_info .rate{
+    margin-left: 20px
+}
+.product_info .qty{
+    margin-left: 20px
+}
+
+.product_info input{
+    margin: 20px
+}
+
+.product_info button{
+    margin-left: 20px
+}

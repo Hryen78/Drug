@@ -1,0 +1,26 @@
+.bordered-img {
+    border: 2px solid #000;
+    max-width: 100%;
+    height: auto;
+}
+.section-padding {
+    padding: 60px 0;
+}
+.intro-section {
+    background-color: #f8f9fa;
+    text-align: center;
+}
+.purpose-section, .store-section {
+    display: flex;
+    align-items: center;
+}
+.purpose-section .text, .store-section .text {
+    flex: 1;
+    padding: 20px;
+}
+.purpose-section .image, .store-section .image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
